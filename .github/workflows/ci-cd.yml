@@ -32,7 +32,7 @@ jobs:
           tags: faresbkh216/angular-app:latest
 
       - name: Run docker compose
-        run: docker-compose up -d
+        run: docker compose up -d
 
       - name: Check running containers
         run: docker ps
